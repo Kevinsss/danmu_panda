@@ -21,8 +21,9 @@
 	Example:
 		python main.py -rid 123456 -f (crawl roomid:123456 and output result to file) 
 		python main.py -rid 123456	(crawl roomid:123456 and output result to console)
-	Result:
-		![image](https://github.com/Kevinsss/danmu_panda/blob/master/result.png)
+
+## Result:
+![image](https://github.com/Kevinsss/danmu_panda/blob/master/result.png)
 
 
 
