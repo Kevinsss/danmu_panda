@@ -7,6 +7,9 @@
 	PandaTv.py: connect TCP server(ip:port) to crawl bullet scree data.
 	PandaMsg.py: type of PandaTV message.
 
+	HEART_TIME(line:132 in PandaTV.py): represent heartbeat time, user-defined
+
+
 ## Environment
 	Python: 2.7.*
 	System: Windows/Linux/Mac
@@ -18,6 +21,8 @@
 	Example:
 		python main.py -rid 123456 -f (crawl roomid:123456 and output result to file) 
 		python main.py -rid 123456	(crawl roomid:123456 and output result to console)
+	Result:
+		![image](https://github.com/Kevinsss/danmu_panda/result.png)
 
 
 
