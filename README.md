@@ -4,7 +4,7 @@
 	Crawl bullet scree(or "dan mu" in Chinese) of PandaTV's Liveroom.
 	main.py: start point.
 	Utils.py: tools class.
-	PandaTv.py: connect TCP server(ip:port) to crawl bullet scree data.
+	PandaTv.py: connect TCP server(ip:port) to crawl bullet screen data.
 	PandaMsg.py: type of PandaTV message.
 
 	HEART_TIME(line:132 in PandaTV.py): represent heartbeat time, user-defined
@@ -15,7 +15,7 @@
 	System: Windows/Linux/Mac
 
 ## Usage
-	To run main.py normaly,you need these parameter:
+	To run main.py normaly,you need these parameters:
 		-rid roomid : 	PandaTV room id
 		-f(Optional): 	whether out to file
 	Example:
