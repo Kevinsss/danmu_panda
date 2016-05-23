@@ -1,6 +1,6 @@
 # Crawl Bullet screen of PandaTV
 
-## Decription
+## Description
 	Crawl bullet scree(or "dan mu" in Chinese) of PandaTV's Liveroom.
 	main.py: start point.
 	Utils.py: tools class.
