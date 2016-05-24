@@ -22,6 +22,8 @@ class Utils(object):
 	@staticmethod
 	def toFile(danmuDict,f):
 		if danmuDict['type'] == "1":
-			text = danmuDict['data']['from']['nickName'] + u': ' + danmuDict['data']['content'] + '\n'
+			tmp = danmuDict['data']['from']['nickName'] + u': ' + danmuDict['data']['content']
+			print tmp
+			text = tmp + '\n'
 			f.write(text.encode('utf-8'))
 			f.flush()
